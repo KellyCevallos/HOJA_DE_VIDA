@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #15083f;
+}
+.name {
+    width: 100%;
+    height: 200px;
+    background-color: #601483;
+    transform: skewY(-5deg);
+}
+.name .main {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+.name .main .p-1 {
+    color: #FFF8F0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    transform: skewY(5deg);
+    margin-bottom: 0;
+}
+.name .main .p-2 {
+    color: #FFF8F0;
+    font-family: 'Plus Jakarta Sans', Georgia, 'Times New Roman', Times, serif;
+    font-size: 29px;
+    transform: skewY(5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.name .img {
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    width: 200px;
+    height: 200px;
+    border-radius: 0%;
+    
+    overflow: hidden;
+}
+.name .img img {
+    width: 150px;
+    height: auto;
+    border-radius: 0;
+}
+
+.dato {
+    width: 90%;
+    height: auto;
+    background-color: #e8baf5;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.dato .titulodato {
+    color: #060606;
+    font-family: 'Plus Jakarta Sans 3', Arial, Helvetica, sans-serif cursive;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #f2f1f1 solid;
+}
+.dato .tituloseccion {
+    color: #4b4b4b;
+    font-family: 'Plus Jakarta Sans 3','Times New Roman', Times, serif cursive;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+}
+.dato .tituloinfo {
+    color: #585755;
+    font-family: 'Plus Jakarta Sans 3','Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
